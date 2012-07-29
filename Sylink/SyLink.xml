@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerSettings DomainId="DEADBEEF">
+  <CommConf>
+    <AgentCommunicationSetting AlwaysConnect="1" CommunicationMode="PULL" DisableDownloadProfile="0" Kcs="DEADBEEF" PullHeartbeatSeconds="1800" PushHeartbeatSeconds="300" UploadCmdStateHeartbeatSeconds="300" UploadLearnedApp="0" UploadLogHeartbeatSeconds="300" UploadOpStateHeartbeatSeconds="300"/>
+    <LogSetting MaxLogRecords="100" SendingLogAllowed="1" UploadProcessLog="1" UploadRawLog="1" UploadSecurityLog="1" UploadSystemLog="1" UploadTrafficLog="1"/>
+    <RegisterClient PreferredGroup="My Company\Desktops (location based)" PreferredMode="1"/>
+    <ServerList FreezeSmsList="0" Name="Default Management Server List">
+      <ServerPriorityBlock Name="List0">
+        <Server Address="10.10.10.10" HttpPort="8014" VerifySignatures="1"/>
+        <Server Address="SEPM" HttpPort="8014" VerifySignatures="1"/>
+        <Server Address="SEPM.asteriskinfosec.com.au" HttpPort="8014" VerifySignatures="1"/>
+      </ServerPriorityBlock>
+    </ServerList>
+    <ServerCertList>
+      <Certificate Name="SEPM">DEADBEEF&#xd;
+CPFkI/KOxhY0g+fnUbxr259h</Certificate>
+    </ServerCertList>
+  </CommConf>
+</ServerSettings>

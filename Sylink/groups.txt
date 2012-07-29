@@ -1,0 +1,9 @@
+My Company\Desktops
+My Company\Desktops\WA
+My Company\Desktops\ACT
+My Company\Desktops\NSW
+My Company\Desktops\NT
+My Company\Desktops\QLD
+My Company\Desktops\SA
+My Company\Desktops\TAS
+My Company\Desktops\VIC
